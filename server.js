@@ -18,9 +18,10 @@ app.use(cors({
     origin:[process.env.FRONTEND_URL],
     methods:["POST","GET"],
     credentials:true,
-}))
+})
+)
 // app.use((req, res, next) => {
-//         res.setHeader("Access-Control-Allow-Origin", "http://localhost:5173"),
+//         res.setHeader("Access-Control-Allow-Origin", "https://handyhub31.netlify.app/"),
 //         res.header(
 //             "Access-Control-Allow-Headers",
 //             "Origin, X-Requested-with, Content-Type, Accept",
